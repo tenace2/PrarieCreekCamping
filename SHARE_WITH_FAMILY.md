@@ -1,5 +1,38 @@
 # Prairie Creek Redwoods Maps - Quick Share
 
+## 🎯 **BEST LINK for Family (Works Great on Phones!)**
+
+**Copy this link and send to your family:**
+
+```
+https://tenace2.github.io/PrarieCreekCamping/
+```
+
+[📱👆 Click here - Works perfectly on mobile and desktop!](https://tenace2.github.io/PrarieCreekCamping/)
+
+## 🌟 Why This Link is Better
+
+- ✅ **Great mobile experience** - shows satellite view properly
+- ✅ **Works on all devices** - phones, tablets, computers
+- ✅ **Clear markers** - your camping, swimming, hiking spots are easy to see
+- ✅ **Fast loading** - embedded map loads reliably
+- ✅ **Professional look** - clean, easy-to-use interface
+
+---
+
+## 📱 Alternative Links (if needed)
+
+### 🏕️ Direct Outdoor Activities Map
+
+**Use only if the main link doesn't work:**
+
+```
+https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12
+```
+
+[👆 Click here for outdoor activities](https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12)
+*⚠️ Note: May not show satellite view on mobile*ek Redwoods Maps - Quick Share
+
 ## � Two Maps for Complete Trip Planning
 
 ### 🏕️ Custom Outdoor Activities Map

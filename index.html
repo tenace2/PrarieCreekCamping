@@ -8,7 +8,7 @@
 			body {
 				font-family: Arial, sans-serif;
 				margin: 0;
-				padding: 20px;
+				padding: 10px;
 				background-color: #f5f5f5;
 			}
 			.container {
@@ -19,69 +19,102 @@
 				border-radius: 8px;
 				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 			}
-			.warning {
-				background-color: #fff3cd;
-				border: 1px solid #ffeaa7;
-				color: #856404;
+			.success-banner {
+				background-color: #d4edda;
+				border: 1px solid #c3e6cb;
+				color: #155724;
 				padding: 15px;
 				border-radius: 4px;
 				margin-bottom: 20px;
+				text-align: center;
 			}
 			.btn {
 				display: inline-block;
-				background-color: #007bff;
+				background-color: #28a745;
 				color: white;
-				padding: 10px 20px;
+				padding: 12px 24px;
 				text-decoration: none;
 				border-radius: 4px;
-				margin: 10px 0;
+				margin: 10px 5px;
+				font-weight: bold;
 			}
 			.btn:hover {
+				background-color: #218838;
+			}
+			.btn-secondary {
+				background-color: #007bff;
+			}
+			.btn-secondary:hover {
 				background-color: #0056b3;
+			}
+			.map-container {
+				width: 100%;
+				height: 400px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				overflow: hidden;
+				margin: 20px 0;
+			}
+			.features {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 15px 0;
+			}
+			.feature {
+				background: #e9ecef;
+				padding: 8px 12px;
+				border-radius: 20px;
+				font-size: 14px;
+			}
+			@media (max-width: 600px) {
+				body {
+					padding: 5px;
+				}
+				.container {
+					padding: 15px;
+				}
+				.map-container {
+					height: 300px;
+				}
+				.btn {
+					display: block;
+					text-align: center;
+					margin: 10px 0;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<h1>Prairie Creek Redwoods - Google My Maps</h1>
+			<h1>🌲 Prairie Creek Redwoods - Camping, Swimming & Hiking Guide</h1>
 
-			<div class="warning">
-				<strong>Ready to view!</strong> This map shows your custom camping,
-				swimming, and hiking spots in Prairie Creek Redwoods. No sign-in
-				required!
+			<div class="success-banner">
+				<strong>📱 Mobile-Friendly Map!</strong> This embedded version works
+				great on phones and shows satellite view properly. Your custom markers
+				are clearly visible!
+			</div>
+
+			<div class="features">
+				<span class="feature">🏕️ Camping Spots</span>
+				<span class="feature">🏊 Swimming Locations</span>
+				<span class="feature">🥾 Hiking Trails</span>
+				<span class="feature">🛰️ Satellite View</span>
+				<span class="feature">📍 Custom Markers</span>
 			</div>
 
 			<p>
-				This project provides easy access to a Google My Maps project focused on
-				Prairie Creek Redwoods. The map includes custom markers for camping
-				spots, swimming locations, hiking trails and other points of interest in
-				this beautiful redwood forest area.
+				Explore Prairie Creek Redwoods State Park with our custom map featuring
+				hand-picked camping spots, swimming holes, and hiking trails. The
+				embedded map below includes satellite imagery and all local businesses
+				for complete trip planning.
 			</p>
 
-			<h2>Access the Map</h2>
-			<p>Click the button below to view the Prairie Creek Redwoods map:</p>
-			<a
-				href="https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12"
-				class="btn"
-				target="_blank"
-				>View Prairie Creek Redwoods Map</a
-			>
-
-			<h2>Embedded Map</h2>
-			<p>You can also view the map directly below:</p>
-			<div
-				style="
-					width: 100%;
-					height: 500px;
-					border: 1px solid #ccc;
-					border-radius: 4px;
-					overflow: hidden;
-				"
-			>
+			<div class="map-container">
 				<iframe
 					src="https://www.google.com/maps/d/embed?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12"
 					width="100%"
-					height="500"
+					height="100%"
 					style="border: 0"
 					allowfullscreen=""
 					loading="lazy"
@@ -89,23 +122,52 @@
 				>
 				</iframe>
 			</div>
-			<h2>About This Project</h2>
+
+			<h2>📱 Share This Page</h2>
+			<p>
+				This page works perfectly on mobile devices! Share this URL with family
+				and friends:
+			</p>
+			<p><strong>https://tenace2.github.io/PrarieCreekCamping/</strong></p>
+
+			<h2>🔗 Alternative Links</h2>
+			<a
+				href="https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12"
+				class="btn"
+				target="_blank"
+				>Open in Google Maps</a
+			>
+			<a
+				href="https://www.google.com/maps/place/Prairie+Creek+Redwoods+State+Park/@41.3894734,-124.0618838,12z/data=!3m1!4b1!4m6!3m5!1s0x54d157d4d9f21821:0x8d0a70ea54b63c1d!8m2!3d41.3894734!4d-124.0270147!16zL20vMDNkM2M3"
+				class="btn btn-secondary"
+				target="_blank"
+				>View Full Area Map</a
+			>
+			<h2>🌲 About Prairie Creek Redwoods</h2>
 			<p>
 				Prairie Creek Redwoods State Park is home to some of the world's tallest
-				trees and most magnificent old-growth redwood forests. This map project
-				aims to help visitors navigate and explore the park's trails,
-				viewpoints, and notable features.
+				trees and most magnificent old-growth redwood forests. This map helps
+				visitors discover the best camping spots, swimming holes, and hiking
+				trails in this incredible natural wonderland.
 			</p>
 
-			<h2>Technical Notes</h2>
+			<h2>✨ Why This Map is Better</h2>
 			<ul>
-				<li>This is an exported/saved version of a Google My Maps project</li>
 				<li>
-					Some interactive features may require an active internet connection
+					📱 <strong>Mobile-optimized</strong> - Works perfectly on phones
 				</li>
-				<li>Map data and imagery are provided by Google Maps</li>
 				<li>
-					Please respect Google's Terms of Service when using this content
+					🛰️ <strong>Satellite view</strong> - Shows terrain and forest clearly
+				</li>
+				<li>
+					📍 <strong>Custom markers</strong> - Hand-picked locations by locals
+				</li>
+				<li>
+					🔗 <strong>Reliable loading</strong> - Embedded maps work consistently
+				</li>
+				<li>
+					🏪 <strong>Local businesses</strong> - Restaurants, gas, lodging
+					included
 				</li>
 			</ul>
 

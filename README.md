@@ -1,24 +1,31 @@
 # Prairie Creek Redwoods - Google My Maps
 
-# Prairie Creek Redwoods - Google My Maps
+## 🌲 Best Way to View the Map
+
+### 🎯 **Recommended: GitHub Pages Site**
+
+**[📱 Works great on mobile and desktop!](https://tenace2.github.io/PrarieCreekCamping/)**
+
+This gives you the best experience across all devices with proper satellite view and clear markers.
+
+## 📍 Alternative Viewing Options
+
+### Option 1: Direct Custom Map Link
+
+[Prairie Creek Redwoods Custom Map](https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12)
+_Note: Mobile experience may be limited_
+
+### Option 2: Full Google Maps Area
+
+[Prairie Creek Redwoods - Full Map](https://www.google.com/maps/place/Prairie+Creek+Redwoods+State+Park/@41.3894734,-124.0618838,12z/data=!3m1!4b1!4m6!3m5!1s0x54d157d4d9f21821:0x8d0a70ea54b63c1d!8m2!3d41.3894734!4d-124.0270147!16zL20vMDNkM2M3)
+
+### Option 3: Local File
+
+Open `index.html` in a web browser to view the map embedded locally.
 
 ## Description
 
 This project provides easy access to a Google My Maps project focused on Prairie Creek Redwoods. The map contains trails, points of interest, and helpful information for visitors to this magnificent redwood forest.
-
-## How to View the Map
-
-### Option 1: Custom Markers Map
-
-Visit your custom map with camping, swimming, and hiking spots: [Prairie Creek Redwoods Custom Map](https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12)
-
-### Option 2: Full Google Maps Area
-
-View the area with all businesses, restaurants, and services: [Prairie Creek Redwoods - Full Map](https://www.google.com/maps/place/Prairie+Creek+Redwoods+State+Park/@41.3894734,-124.0618838,12z/data=!3m1!4b1!4m6!3m5!1s0x54d157d4d9f21821:0x8d0a70ea54b63c1d!8m2!3d41.3894734!4d-124.0270147!16zL20vMDNkM2M3)
-
-### Option 3: Embedded View
-
-Open `index.html` in a web browser to view the map embedded in a simple web page.
 
 ## About Prairie Creek Redwoods
 
@@ -54,14 +61,20 @@ This project provides two types of maps:
 
 ## Sharing with Family
 
-### For Custom Outdoor Activities:
+### 🎯 **Best Option: GitHub Pages Link**
 
-Send them this link for your curated camping, swimming, and hiking spots:
+Send them this link for the best mobile and desktop experience:
+**https://tenace2.github.io/PrarieCreekCamping/**
+
+### 📱 **Alternative: Direct Map Links**
+
+#### For Custom Outdoor Activities:
+
 https://www.google.com/maps/d/u/0/viewer?mid=1qtuAAYN6KZN2R0icCPuKFGhFIDZVol8&ll=41.299438526476706%2C-124.0400706491881&z=12
+_Note: Limited mobile experience, may not show satellite view_
 
-### For Trip Planning (Restaurants, Hotels, etc.):
+#### For Trip Planning (Restaurants, Hotels, etc.):
 
-Send them this link for full area information with all businesses:
 https://www.google.com/maps/place/Prairie+Creek+Redwoods+State+Park/@41.3894734,-124.0618838,12z/data=!3m1!4b1!4m6!3m5!1s0x54d157d4d9f21821:0x8d0a70ea54b63c1d!8m2!3d41.3894734!4d-124.0270147!16zL20vMDNkM2M3
 
 ## Disclaimer
